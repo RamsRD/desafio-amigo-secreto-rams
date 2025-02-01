@@ -25,8 +25,8 @@ function limpiarCaja () {
 }
 
 function actualizarLista() {
-    let lista = document.getElementById('listaAmigos');
-    lista.innerHTML = '';
+    let listaHTML = document.getElementById('listaAmigos');
+    listaHTML.innerHTML = '';
 }
     
 // Consola (eliminar cuando se termine el proyecto)
