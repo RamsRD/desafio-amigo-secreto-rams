@@ -6,11 +6,10 @@ let ganadorSorteo;
 //Funciones
 
 function añadirAmigo() {
-    let amigoDigitado = document.getElementById("amigo").value.trim();
+    let amigoDigitado = document.getElementById('amigo').value.trim();
     
     if (amigoDigitado === '') {
         alert('Por favor, inserte un nombre.');
-        limpiarCaja();
         return;
     }
 
@@ -22,7 +21,13 @@ function añadirAmigo() {
 
 function limpiarCaja () {
     document.getElementById("amigo").value = '';
+
 }
+
+function actualizarLista() {
+    
+}
+
     
 // Consola (eliminar cuando se termine el proyecto)
 
