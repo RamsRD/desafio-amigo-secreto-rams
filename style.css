@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #FF5733;
+    --color-secondary: #f8dacbe6;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55820;
+    --color-button: #fb2929;
+    --color-button-hover: #cd0000;
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #fae2d5f3;
 }
 
 /* Estilos generales */
@@ -54,10 +54,9 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 60px;
     font-family: "Merriweather", serif;
     font-weight: 900;
-    font-style: italic;
     color: var(--color-white);
 }
 
@@ -128,16 +127,25 @@ button {
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
+    color: #3c3b3b;
+    padding: 10px 20px;
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 25px;
     margin: 20px 0;
 }
 
 .result-list {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: #fb2929;
+    font-size: 30px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: #ffffff;
     font-weight: bold;
     text-align: center;
 }
@@ -150,11 +158,11 @@ ul {
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .button-draw img {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .button-draw:hover {
