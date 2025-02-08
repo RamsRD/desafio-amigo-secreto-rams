@@ -34,7 +34,20 @@ function actualizarLista() {
         listaHTML.appendChild(li);
     })
 }
+function sortearAmigo() {
+    if (listaAmigos.length === 0) {
+        alert('No has introducido nombres en la lista para sortear.');
+        return;
+    }
+    let indiceAleatorio = Math.floor(Math.random()*listaAmigos.length);
 
+    let amigoSorteado = listaAmigos[indiceAleatorio];
+
+    let resultadoHTML = document.getElementById('resultado');
+    resultadoHTML.innerHTML= `<li>${amigoSorteado}</li>`;
+
+    ganadorSorteo = amigoSorteado;
+}
 // Consola (eliminar cuando se termine el proyecto)
 
 console.log(`Ver lista de amigos:`, listaAmigos);
