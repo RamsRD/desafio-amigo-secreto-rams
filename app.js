@@ -35,7 +35,7 @@ function actualizarLista() {
     })
 }
 
-function sortearAmigo() {
+function sortearAmigos() {
     if (listaAmigos.length === 0) {
         alert('No has introducido nombres en la lista para sortear.');
         return;
