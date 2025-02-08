@@ -27,8 +27,14 @@ function limpiarCaja () {
 function actualizarLista() {
     let listaHTML = document.getElementById('listaAmigos');
     listaHTML.innerHTML = '';
+
+    listaAmigos.forEach(amigo => {
+        let li = document.createElement('li');
+        li.textContent = amigo;
+        listaHTML.appendChild(li);
+    })
 }
-    
+
 // Consola (eliminar cuando se termine el proyecto)
 
 console.log(`Ver lista de amigos:`, listaAmigos);
