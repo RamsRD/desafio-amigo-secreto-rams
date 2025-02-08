@@ -9,7 +9,7 @@ function añadirAmigos() {
     let amigoDigitado = document.getElementById('amigo').value.trim();
     
     if (amigoDigitado === '') {
-        alert('Por favor, inserte un nombre.');
+        alert('Por favor, inserte un nombre para agregar en la lista.');
         return;
     }
 
@@ -20,7 +20,7 @@ function añadirAmigos() {
 }
 
 function limpiarCaja () {
-    document.getElementById("amigo").value = '';
+    document.getElementById('amigo').value = '';
 
 }
 
