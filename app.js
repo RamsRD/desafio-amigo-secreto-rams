@@ -5,7 +5,7 @@ let ganadorSorteo;
 
 //Funciones
 
-function añadirAmigo() {
+function añadirAmigos() {
     let amigoDigitado = document.getElementById('amigo').value.trim();
     
     if (amigoDigitado === '') {
@@ -34,6 +34,7 @@ function actualizarLista() {
         listaHTML.appendChild(li);
     })
 }
+
 function sortearAmigo() {
     if (listaAmigos.length === 0) {
         alert('No has introducido nombres en la lista para sortear.');
@@ -48,6 +49,7 @@ function sortearAmigo() {
 
     ganadorSorteo = amigoSorteado;
 }
+
 // Consola (eliminar cuando se termine el proyecto)
 
 console.log(`Ver lista de amigos:`, listaAmigos);
