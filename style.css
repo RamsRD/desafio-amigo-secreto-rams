@@ -57,6 +57,7 @@ body {
     font-size: 60px;
     font-family: "Merriweather", serif;
     font-weight: 900;
+    box-align: center;
     color: var(--color-white);
 }
 
