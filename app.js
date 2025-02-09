@@ -28,11 +28,20 @@ function actualizarLista() {
     let listaHTML = document.getElementById('listaAmigos');
     listaHTML.innerHTML = '';
 
-    listaAmigos.forEach(amigo => {
-        let li = document.createElement('li');
-        li.textContent = amigo;
-        listaHTML.appendChild(li);
+    if (listaAmigos.length > 0) {
+        listaHTML.style.display = 'block';
+
+        listaAmigos.forEach(amigo => {
+            let li = document.createElement('li');
+            li.textContent = amigo;
+            listaHTML.appendChild(li);
     })
+      
+    }
+    
+    else {
+        listaHTML.style.display = 'none';
+    }
 }
 
 function sortearAmigos() {
@@ -40,12 +49,13 @@ function sortearAmigos() {
         alert('No has introducido nombres en la lista para sortear.');
         return;
     }
-    let indiceAleatorio = Math.floor(Math.random()*listaAmigos.length);
 
+    let indiceAleatorio = Math.floor(Math.random()*listaAmigos.length);
     let amigoSorteado = listaAmigos[indiceAleatorio];
 
     let resultadoHTML = document.getElementById('resultado');
-    resultadoHTML.innerHTML= `<li>${amigoSorteado}</li>`;
+    resultadoHTML.innerHTML = `<li>${amigoSorteado}</li>`;
+    resultadoHTML.style.display = 'block';
 
     ganadorSorteo = amigoSorteado;
 }
