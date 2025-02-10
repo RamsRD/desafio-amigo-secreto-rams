@@ -5,7 +5,7 @@
    </p>
 
 ## 📌 | Índice
-*[1. 📖 | Descripción del proyecto](#1. 📖 | Descripción del proyecto)  
+*[1. 📖 | Descripción del proyecto](Descripción-del-proyecto)  
 3. ✨ | Funcionalidades  
 4. 🔗 | Acceso al proyecto  
 5. 🛠️ | Tecnologías utilizadas  
