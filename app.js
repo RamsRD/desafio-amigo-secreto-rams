@@ -1,5 +1,6 @@
 // Variables
 
+alert('¡Te damos la bienvenido al juego del Amigo Secreto de Ramsés!');
 let listaAmigos = []; //Array que almacena los nombres que se colocarán en la lista
 let ganadorSorteo; //Almacena el nombre seleccionado del sorteo de la lista
 
