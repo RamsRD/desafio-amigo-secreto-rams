@@ -26,7 +26,7 @@ Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos par
 Pueden acceder al código y otros proyectos creados por mí en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD) 
 
 ## 🚀 | Ejecutar el proyecto  
-1. Clona este repositorio en tu computadora:  
+1. Clona este repositorio en tu computadora usando Git Bash:  
    ```bash
    git clone https://github.com/RamsRD/desafio-amigo-secreto-rams.git
 
