@@ -33,7 +33,6 @@ Pueden acceder al código de este proyecto y otros proyectos creados por mí en 
 También pueden acceder a otros proyectos creados por mí en el siguiente enlace:
 [Repositorio en GitHub](https://github.com/RamsRD)
 
-https://github.com/RamsRD/desafio-amigo-secreto-rams.git
 ## 🚀 | Ejecutar el proyecto:  
 - Clona este repositorio en tu computadora usando Git Bash. Si aún no lo tienes, puedes bajar el programa aquí: 
 [Descargar Git Bash](https://git-scm.com/downloads)
