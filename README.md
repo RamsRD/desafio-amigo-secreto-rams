@@ -4,7 +4,7 @@
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
-## 📌 Índice
+## 📌 | Índice
 1. 📖 | Descripción del Proyecto  
 2. 🚧 | Estado del Proyecto  
 3. ✨ | Funcionalidades  
@@ -12,27 +12,27 @@
 5. 🛠️ | Tecnologías Utilizadas  
 6. 👤 | Autor 
 
-## 📖 Descripción del Proyecto  
+## 📖 | Descripción del Proyecto  
 Un simple juego de "Amigo Secreto" que permite agregar nombres y sortear para elegir aleatoriamente un ganador.  
 
-## 🚧 Estado del Proyecto  
+## 🚧 | Estado del Proyecto  
 🔨 En desarrollo  
 
-## ✨ Funcionalidades  
+## ✨ | Funcionalidades  
 ✔️ Agregar nombres a la lista. 
 ✔️ Seleccionar un ganador al azar.
 ✔️ Interfaz sencilla y responsiva.
 
-## 🔗 Acceso al Proyecto  
+## 🔗 | Acceso al Proyecto  
 Puedes acceder al código en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD)  
 
-## 🛠️ Tecnologías Utilizadas  
+## 🛠️ | Tecnologías Utilizadas  
 - HTML  
 - CSS  
 - JavaScript  
 - ChatGPT
 
-## Autor
+## 👤 | Autor
 
 |[<img src="https://avatars.githubusercontent.com/u/194618244?s" width=115><br><sub>RamsRD</sub>](https://github.com/RamsRD)|
 | :---: |
