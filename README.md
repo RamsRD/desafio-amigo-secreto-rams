@@ -15,9 +15,6 @@
 ## 📖 | Descripción del proyecto: 
 Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos para elegir aleatoriamente un ganador.  
 
-## 🚧 | Estado del proyecto:
-🔨 Culminado.
-
 ## ✨ | Funcionalidades:
 ✔️ Agregar nombres a la lista.
 
