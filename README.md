@@ -27,7 +27,8 @@ Pueden acceder al código y otros proyectos creados por mí en el siguiente enla
 
 ## 🚀 | Ejecutar el proyecto  
 Clona este repositorio en tu computadora usando Git Bash:  
-   ```bash
+
+```bash
    git clone https://github.com/RamsRD/desafio-amigo-secreto-rams.git
 
 ## 🛠️ | Tecnologías utilizadas: 
