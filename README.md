@@ -15,11 +15,11 @@
 Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos para elegir aleatoriamente un ganador.  
 
 ## ✨ | Funcionalidades:
-✔️ Agregar nombres a la lista.
+✔️ Permite agregar nombres a la lista.
 
-✔️ Seleccionar un ganador al azar.
+✔️ Busca seleccionar un ganador al azar.
 
-✔️ Interfaz sencilla y responsiva.
+✔️ Tiene una interfaz sencilla, de colores cálidos.
 
 ## 🔗 | Acceso al proyecto:
 Pueden acceder al código en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD)  
