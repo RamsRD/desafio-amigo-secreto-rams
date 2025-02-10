@@ -4,6 +4,10 @@
    <img src="https://img.shields.io/badge/ESTATUS-CULMINADO-blue">
    </p>
 
+<p align="left">
+   <img src="https://img.shields.io/badge/FECHA DE CONCLUSIÓN-10/02/2025-green">
+   </p>
+
 ## 📖 | Descripción del proyecto: 
 Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos para elegir aleatoriamente a un ganador.  
 
@@ -24,7 +28,7 @@ Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos par
 Pueden acceder al código y otros proyectos creados por mí en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD) 
 
 ## 🚀 | Ejecutar el proyecto:  
-- Clona este repositorio en tu computadora usando Git Bash. Puedes descargarlo aquí: [Descargar Git Bash](https://git-scm.com/downloads)
+- Clona este repositorio en tu computadora usando Git Bash. Si aún no lo tienes, puedes bajar el programa aquí: [Descargar Git Bash](https://git-scm.com/downloads)
 
    ```bash
    git clone https://github.com/RamsRD/desafio-amigo-secreto-rams.git
