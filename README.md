@@ -1,11 +1,11 @@
-<h1 align="center"> Desafío amigo secreto de Rams</h1>
+<h1 align="center"> Desafío amigo secreto de RamsRD</h1>
 
 <p align="left">
-   <img src="https://img.shields.io/badge/ESTATUS-CULMINADO-blue">
+   <img src="https://img.shields.io/badge/Estatus-CULMINADO-blue">
    </p>
 
 <p align="left">
-   <img src="https://img.shields.io/badge/FECHA DE CONCLUSIÓN-10/02/2025-green">
+   <img src="https://img.shields.io/badge/Fecha de conclusión-10/02/2025-green">
    </p>
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/RamsRD?style=social)
@@ -27,18 +27,22 @@ Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos par
 ![](https://i.gyazo.com/4af0e00ded379741823f3013aeed1369.gif)
 
 ## 🔗 | Acceso al proyecto y otros:
-Pueden acceder al código y otros proyectos creados por mí en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD) 
+Pueden acceder al código de este proyecto y otros proyectos creados por mí en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD) 
 
 ## 🚀 | Ejecutar el proyecto:  
 - Clona este repositorio en tu computadora usando Git Bash. Si aún no lo tienes, puedes bajar el programa aquí: [Descargar Git Bash](https://git-scm.com/downloads)
 
    ```bash
    git clone https://github.com/RamsRD/desafio-amigo-secreto-rams.git
-   
-## 🛠️ | Tecnologías utilizadas: 
+
+- Revísalo y edítalo usando Visual Studio Code. Si aún no lo tienes, puedes bajarlo aquí: [Descargar Visual Studio Code](https://code.visualstudio.com/)
+
+## 🛠️ | Tecnologías utilizadas para desarrollar el código: 
 - JavaScript. 
 - HTML.  
 - CSS.
+- Visual Studio Code.
+- Git Bash.
 - ChatGPT.
 
 ## 👥 | Contribuyentes:
