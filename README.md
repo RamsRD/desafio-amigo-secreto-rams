@@ -18,11 +18,11 @@ Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos par
 ## ✨ | Funcionalidades:
 ![✔️ Tiene una interfaz sencilla, de colores cálidos.](https://gyazo.com/81b6cc5bec343ac0de47b92d57e411c0)
 
-![✔️ ¡Agrega nombres a la lista!](https://i.gyazo.com/34afe52633d6ade6a360b49fd6a3b383.gif)
+![✔️ Agrega nombres a la lista.](https://i.gyazo.com/34afe52633d6ade6a360b49fd6a3b383.gif)
 
-![✔️ ¡Busca seleccionar un ganador al azar!](https://i.gyazo.com/bc98761b08fe931cc48e0fa705dde68d.gif)
+![✔️ Busca seleccionar un ganador al azar](https://i.gyazo.com/bc98761b08fe931cc48e0fa705dde68d.gif)
 
-![✔️ ¡Reincia el juego y vuelve a comenzar!](https://i.gyazo.com/4af0e00ded379741823f3013aeed1369.gif)
+![✔️ Reincia el juego y vuelve a comenzar cuantas veces quieras.](https://i.gyazo.com/4af0e00ded379741823f3013aeed1369.gif)
 
 ## 🔗 | Acceso al proyecto y otros:
 Pueden acceder al código y otros proyectos creados por mí en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD) 
