@@ -58,8 +58,3 @@ function sortearAmigos() {
     resultadoHTML.style.display = 'block'; //Muestra la sección de resultados apenas se le de al botón de sortear amigos
     ganadorSorteo = amigoSorteado; //Guarda el nombre del ganador en la variable
 }
-
-// Consola (eliminar cuando se termine el proyecto)
-
-console.log(`Ver lista de amigos:`, listaAmigos);
-console.log(`Ver ganador del sorteo:`, ganadorSorteo);
