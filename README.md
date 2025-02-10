@@ -4,12 +4,13 @@
    <img src="https://img.shields.io/badge/ESTATUS-CULMINADO-blue">
    </p>
 
-## 📌 | Índice
-*[1. 📖 | Descripción del proyecto](Descripción-del-proyecto)  
+## 📌 | Índice:
+1. 📖 | Descripción del proyecto 
 3. ✨ | Funcionalidades  
-4. 🔗 | Acceso al proyecto  
-5. 🛠️ | Tecnologías utilizadas  
-6. 👤 | Autor 
+4. 🔗 | Acceso al proyecto
+5. 🚀 | Ejecutar el proyecto
+6. 🛠️ | Tecnologías utilizadas  
+7. 👤 | Autor 
 
 ## 📖 | Descripción del proyecto: 
 Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos para elegir aleatoriamente un ganador.  
@@ -22,7 +23,12 @@ Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos par
 ✔️ Tiene una interfaz sencilla, de colores cálidos.
 
 ## 🔗 | Acceso al proyecto:
-Pueden acceder al código en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD)  
+Pueden acceder al código en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD) 
+
+## 🚀 | Ejecutar el proyecto  
+1. Clona este repositorio en tu computadora:  
+   ```bash
+   git clone https://github.com/RamsRD/
 
 ## 🛠️ | Tecnologías utilizadas: 
 - HTML  
