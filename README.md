@@ -4,7 +4,15 @@
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
-- 🚧 Estado del proyecto: en construcción. 🚧
+## 📌 Índice
+1. 📖 | Descripción del Proyecto  
+2. 🚧 | Estado del Proyecto  
+3. ✨ | Funcionalidades  
+4. 🔗 | Acceso al Proyecto  
+5. 🛠️ | Tecnologías Utilizadas  
+6. 👤 | Autor 
+
+- 🚧 | Estado del proyecto: en construcción. 🚧
 
 ## Autor
 
