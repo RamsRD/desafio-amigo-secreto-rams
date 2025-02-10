@@ -22,13 +22,13 @@ Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos par
 
 ✔️ Tiene una interfaz sencilla, de colores cálidos.
 
-## 🔗 | Acceso al proyecto:
-Pueden acceder al código en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD) 
+## 🔗 | Acceso al proyecto y otros:
+Pueden acceder al código y otros proyectos creados por mí en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD) 
 
 ## 🚀 | Ejecutar el proyecto  
 1. Clona este repositorio en tu computadora:  
    ```bash
-   git clone https://github.com/RamsRD/
+   git clone https://github.com/RamsRD/desafio-amigo-secreto-rams.git
 
 ## 🛠️ | Tecnologías utilizadas: 
 - HTML  
