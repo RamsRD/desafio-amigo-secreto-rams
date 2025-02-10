@@ -1,38 +1,40 @@
 <h1 align="center"> Desafío amigo secreto de Rams</h1>
 
 <p align="left">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   <img src="https://img.shields.io/badge/ESTATUS-Culminado-green">
    </p>
 
 ## 📌 | Índice
-1. 📖 | Descripción del Proyecto  
-2. 🚧 | Estado del Proyecto  
+1. 📖 | Descripción del proyecto  
+2. 🚧 | Estado del proyecto  
 3. ✨ | Funcionalidades  
-4. 🔗 | Acceso al Proyecto  
-5. 🛠️ | Tecnologías Utilizadas  
+4. 🔗 | Acceso al proyecto  
+5. 🛠️ | Tecnologías utilizadas  
 6. 👤 | Autor 
 
-## 📖 | Descripción del Proyecto  
-Un simple juego de "Amigo Secreto" que permite agregar nombres y sortear para elegir aleatoriamente un ganador.  
+## 📖 | Descripción del proyecto: 
+Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos para elegir aleatoriamente un ganador.  
 
-## 🚧 | Estado del Proyecto  
-🔨 En desarrollo  
+## 🚧 | Estado del proyecto:
+🔨 Culminado.
 
-## ✨ | Funcionalidades  
-✔️ Agregar nombres a la lista. 
+## ✨ | Funcionalidades:
+✔️ Agregar nombres a la lista.
+
 ✔️ Seleccionar un ganador al azar.
+
 ✔️ Interfaz sencilla y responsiva.
 
-## 🔗 | Acceso al Proyecto  
-Puedes acceder al código en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD)  
+## 🔗 | Acceso al proyecto:
+Pueden acceder al código en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD)  
 
-## 🛠️ | Tecnologías Utilizadas  
+## 🛠️ | Tecnologías utilizadas: 
 - HTML  
 - CSS  
 - JavaScript  
 - ChatGPT
 
-## 👤 | Autor
+## 👤 | Autor:
 
 |[<img src="https://avatars.githubusercontent.com/u/194618244?s" width=115><br><sub>RamsRD</sub>](https://github.com/RamsRD)|
 | :---: |
