@@ -29,7 +29,7 @@ Pueden acceder al código y otros proyectos creados por mí en el siguiente enla
 - Clona este repositorio en tu computadora usando Git Bash:  
 
    ```bash
-         git clone https://github.com/RamsRD/desafio-amigo-secreto-rams.git
+   git clone https://github.com/RamsRD/desafio-amigo-secreto-rams.git
    
 ## 🛠️ | Tecnologías utilizadas: 
 - HTML  
