@@ -12,7 +12,25 @@
 5. 🛠️ | Tecnologías Utilizadas  
 6. 👤 | Autor 
 
-- 🚧 | Estado del proyecto: en construcción. 🚧
+## 📖 Descripción del Proyecto  
+Un simple juego de "Amigo Secreto" que permite agregar nombres y sortear para elegir aleatoriamente un ganador.  
+
+## 🚧 Estado del Proyecto  
+🔨 En desarrollo  
+
+## ✨ Funcionalidades  
+✔️ Agregar nombres a la lista. 
+✔️ Seleccionar un ganador al azar.
+✔️ Interfaz sencilla y responsiva.
+
+## 🔗 Acceso al Proyecto  
+Puedes acceder al código en el siguiente enlace: [Repositorio en GitHub](https://github.com/RamsRD)  
+
+## 🛠️ Tecnologías Utilizadas  
+- HTML  
+- CSS  
+- JavaScript  
+- ChatGPT
 
 ## Autor
 
