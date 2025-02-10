@@ -53,18 +53,28 @@ function sortearAmigos() {
         return;
     }
 
-    let indiceAleatorio = Math.floor(Math.random()*listaAmigos.length); //Genera un índice pseudoaleatorio basado en la cantidad de nombres colocados
-    let amigoSorteado = listaAmigos[indiceAleatorio]; //Del sorteo aleatorio, selecciona un nombre
-    let resultadoHTML = document.getElementById('resultado'); //Obtiene el elemento donde se muestra el resultado
-    resultadoHTML.innerHTML = `<li>${amigoSorteado}</li>`; //Muestra el nombre del ganador dentro de un <li>
-    resultadoHTML.style.display = 'block'; //Muestra la sección de resultados apenas se le de al botón de sortear amigos
-    ganadorSorteo = amigoSorteado; //Guarda el nombre del ganador en la variable
-    document.getElementById('reiniciarJuego').removeAttribute('disabled')
-    
+    //Genera un índice pseudoaleatorio basado en la cantidad de nombres colocados
+    let indiceAleatorio = Math.floor(Math.random()*listaAmigos.length); 
+
+    //Del sorteo aleatorio, selecciona un nombre
+    let amigoSorteado = listaAmigos[indiceAleatorio]; 
+
+    //Obtiene el elemento donde se muestra el resultado
+    let resultadoHTML = document.getElementById('resultado'); 
+
+    //Muestra el nombre del ganador dentro de un <li>
+    resultadoHTML.innerHTML = `<li>${amigoSorteado}</li>`; 
+
+    //Muestra la sección de resultados apenas se le de al botón de sortear amigos
+    resultadoHTML.style.display = 'block'; 
+
+    //Guarda el nombre del ganador en la variable
+    ganadorSorteo = amigoSorteado; 
+    document.getElementById('reiniciarJuego').removeAttribute('disabled');
 }
 
 //Función que da las condiciones para reiniciar el juego
-function condicionesIniciales() {
+function condicionesDeInicio() {
     listaAmigos = []; // Limpia la lista de nombres
         
     // Oculta de nuevo la lista en la interfaz
@@ -82,10 +92,8 @@ function condicionesIniciales() {
 //Función para reiniciar el juego
 function reiniciarJuego() {
         limpiarCajaNombres();
-
-        //Indicar mensaje de inicio del juego
-        condicionesIniciales();
+        condicionesDeInicio();
     
-        //Deshabilitar el botón de nuevo juego
+        //Deshabilita el botón de nuevo juego
         document.getElementById('reiniciarJuego').setAttribute('disabled', true);
 }
