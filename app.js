@@ -16,14 +16,16 @@ function añadirAmigos() {
 
     listaAmigos.push(amigoDigitado); //Añade el nombre al array
     actualizarLista();
-    limpiarCaja();
+    limpiarCajaNombres();
 
 }
+
 //Función para limpiar la caja dónde se escriben los nombres de amigos
-function limpiarCaja () {
+function limpiarCajaNombres () {
     document.getElementById('amigo').value = '';
 
 }
+
 //Función que actualiza la lista en la interfaz
 function actualizarLista() {
     let listaHTML = document.getElementById('listaAmigos'); //Agarra el elemento HTML dónde se verán los nombres de los amigos
@@ -57,4 +59,33 @@ function sortearAmigos() {
     resultadoHTML.innerHTML = `<li>${amigoSorteado}</li>`; //Muestra el nombre del ganador dentro de un <li>
     resultadoHTML.style.display = 'block'; //Muestra la sección de resultados apenas se le de al botón de sortear amigos
     ganadorSorteo = amigoSorteado; //Guarda el nombre del ganador en la variable
+    document.getElementById('reiniciarJuego').removeAttribute('disabled')
+    
+}
+
+//Función que da las condiciones para reiniciar el juego
+function condicionesIniciales() {
+    listaAmigos = []; // Limpia la lista de nombres
+        
+    // Oculta de nuevo la lista en la interfaz
+    document.getElementById('listaAmigos').innerHTML = '';
+    document.getElementById('listaAmigos').style.display = 'none';
+    
+    // Borra y oculta el resultado del sorteo
+    document.getElementById('resultado').innerHTML = '';
+    document.getElementById('resultado').style.display = 'none';
+    
+    // Reinicia la variable del ganador
+    ganadorSorteo = null;
+}
+
+//Función para reiniciar el juego
+function reiniciarJuego() {
+        limpiarCajaNombres();
+
+        //Indicar mensaje de inicio del juego
+        condicionesIniciales();
+    
+        //Deshabilitar el botón de nuevo juego
+        document.getElementById('reiniciarJuego').setAttribute('disabled', true);
 }

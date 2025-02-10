@@ -160,7 +160,7 @@ ul {
     align-items: center;
     width: 100%;
     margin: 20px;
-    padding: 10px 40px;
+    padding: 10px 30px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 20px;
@@ -172,4 +172,24 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/*Botón para reiniciar el juego */
+.button-reiniciar {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    color: var(--color-white);
+    font-weight: bold;
+    background-color:#FF5733;
+    cursor: pointer;
+
+}
+.button-reiniciar:disabled {
+    background:#a3a2a2;
+    cursor:not-allowed;
+}
+
+.button-reiniciar:not(:disabled):hover {
+    background-color:#e8591c;
 }
