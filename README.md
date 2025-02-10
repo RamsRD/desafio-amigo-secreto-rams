@@ -8,6 +8,8 @@
    <img src="https://img.shields.io/badge/FECHA DE CONCLUSIÓN-10/02/2025-green">
    </p>
 
+![GitHub Org's stars](https://img.shields.io/github/stars/RamsRD?style=social)
+
 ## 📖 | Descripción del proyecto: 
 Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos para elegir aleatoriamente a un ganador.  
 
