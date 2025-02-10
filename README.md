@@ -1,7 +1,7 @@
 <h1 align="center"> Desafío amigo secreto de Rams</h1>
 
 <p align="left">
-   <img src="https://img.shields.io/badge/ESTATUS-Culminado-green">
+   <img src="https://img.shields.io/badge/ESTATUS-CULMINADO-blue">
    </p>
 
 ## 📌 | Índice
