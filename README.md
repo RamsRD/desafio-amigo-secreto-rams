@@ -16,7 +16,8 @@
 Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos para elegir aleatoriamente a un ganador.  
 
 ## ✨ | Funcionalidades:
-<img src="https://i.gyazo.com/81b6cc5bec343ac0de47b92d57e411c0.png" width="400" style="border:2px solid black; border-radius:10px;" alt="✔️ Tiene una interfaz sencilla, de colores cálidos.">
+✔️ Tiene una interfaz sencilla, de colores cálidos.
+![](https://i.gyazo.com/81b6cc5bec343ac0de47b92d57e411c0.png)
 
 ✔️ ¡Agrega nombres a la lista!
 ![](https://i.gyazo.com/34afe52633d6ade6a360b49fd6a3b383.gif)
