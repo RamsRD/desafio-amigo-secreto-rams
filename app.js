@@ -33,17 +33,30 @@ function actualizarLista() {
 
     if (listaAmigos.length > 0) { //Si hay nombres en la lista, desbloquea la lista
         listaHTML.style.display = 'block';
-        listaAmigos.forEach(amigo => { //Recorre cada nombre en el array creado
+        listaAmigos.forEach((amigo, index)=> { //Recorre cada nombre en el array creado
             let li = document.createElement('li'); //Crea un elemento <li>
             li.textContent = amigo; //Asigna el nombre a <li>
+            
+            let botonEliminar = document.createElement('button-eliminar'); //Crea botón de eliminar
+            botonEliminar.classList.add('button-eliminar');
+            botonEliminar.textContent = '❌';
+            botonEliminar.onclick = function() { eliminarAmigo(index) };
+            
+            li.appendChild(botonEliminar); // Agrega el botón al elemento <li>
             listaHTML.appendChild(li); //Agrega <li> a la lista en el HTML
-    })
+    });
       
     }
     
     else {
         listaHTML.style.display = 'none'; //Si la lista está vacía, la mantiene oculta
     }
+}
+
+//Función para eliminar un amigo de la lista
+function eliminarAmigo(index) {
+    listaAmigos.splice(index, 1); //Elimina el nombre según su índice
+    actualizarLista(); //Actualiza la lista en la interfaz
 }
 
 //Función para realizar el sorteo entre los nombres colocados en la lista y obtener un ganador
