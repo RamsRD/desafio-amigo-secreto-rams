@@ -199,3 +199,21 @@ ul {
     font-size: 16px;
     cursor: pointer;
 }
+
+.menu-link {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-secondary);
+    text-align: left;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: var(--color-button-hover);
+    text-decoration:underline;
+}
+
+.footer {
+    text-align: center;
+}
