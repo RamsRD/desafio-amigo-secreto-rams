@@ -23,6 +23,9 @@ Un simple juego del "Amigo Secreto" que permite agregar nombres y sortearlos par
 ✔️ ¡Busca seleccionar un ganador al azar!
 ![](https://i.gyazo.com/bc98761b08fe931cc48e0fa705dde68d.gif)
 
+✔️ ¡Elimina los nombres de los amigos que no quieras en la lista!
+![](https://i.gyazo.com/f1a5c6a78b21c20cfa3f84dea77d6c2f.gif)
+
 ✔️ ¡Reinicia el juego y vuelve a comenzar cuantas veces quieras!
 ![](https://i.gyazo.com/4af0e00ded379741823f3013aeed1369.gif)
 
