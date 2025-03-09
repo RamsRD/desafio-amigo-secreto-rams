@@ -14,6 +14,11 @@ function añadirAmigos() {
         return;
     }
 
+    if (listaAmigos.includes(amigoDigitado)) { // Evita nombres duplicados
+        alert('Coloque otro nombre, ya que este nombre está repetido.');
+        return;
+    }
+
     listaAmigos.push(amigoDigitado); //Añade el nombre al array
     actualizarLista();
     limpiarCajaNombres();
